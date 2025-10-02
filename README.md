@@ -21,6 +21,15 @@ Render é um serviço de hospedagem de aplicações web Backand.
 Como os serviços tanto do Render quanto do Neon são grátis, a aplicação
 possívelmente entrará em hibernação, e para que funcione, será necessário que, se aguarde um momento até que o render acorde a aplicação. Tentarei qmitigar esta falha colocoando a aplicação em observação em otro serviço web chamado UPTIMEROBOT, mas não sei se isso garantirá que a aplicação permaneça online. 
 
+## Dockerfile 
+
+Como o render não tem a opção de aplicação .Net, se faz necessária a criação de um arquivo de nome 
+DockerFile na raiz do projeto.
+
+## PostgreSql 
+
+Como o Neon não faz tem a opção SqlServer, foi feita  a opção por PostgreSql, as mudanças são poucas, no código, são quase inexistentes. 
+
 
 ## Desafio de projeto
 Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de Nuvem com Microsoft Azure, da trilha .NET da DIO.
