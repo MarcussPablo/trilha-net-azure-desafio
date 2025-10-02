@@ -1,6 +1,27 @@
 # DIO - Trilha .NET - Nuvem com Microsoft Azure
 www.dio.me
 
+## Ajustes do Aluno 
+
+Como o serviço Azure gera riscos financeiros que não podem ser enfrentados por este aluno no momento, a aplicação está online nos serviços de hospedagem a seguir:
+
+## Neon 
+
+Neon é um serviço de hospedagem de Bancos de dados em nuvem Gratuito, fácil de usar, e que gera logs automaticamente. 
+## Render
+
+Render é um serviço de hospedagem de aplicações web Backand.
+
+## Lilnk da aplicação online funcionando 
+[deasfio-dio-.Net-backand-deploy](https://trilha-net-azure-desafio.onrender.com/swagger/index.html)
+
+
+## Atenção!!
+
+Como os serviços tanto do Render quanto do Neon são grátis, a aplicação
+possívelmente entrará em hibernação, e para que funcione, será necessário que, se aguarde um momento até que o render acorde a aplicação. Tentarei qmitigar esta falha colocoando a aplicação em observação em otro serviço web chamado UPTIMEROBOT, mas não sei se isso garantirá que a aplicação permaneça online. 
+
+
 ## Desafio de projeto
 Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de Nuvem com Microsoft Azure, da trilha .NET da DIO.
 
